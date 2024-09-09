@@ -26,9 +26,9 @@ This project aims to develop a program that tracks employee attendance by record
 - Cash_photo: Stores cached photos captured every 10 frames.
 
 ## Scripts
-- train.py: Trains the model using the user images dataset.
-- split_video.py: Slices the video received from the Telegram bot to register employees in the database.
-- test_recognizer.py: Tests the model's prediction accuracy.
-- telebot_faceID.py: Handles the Telegram bot for new employee registration.
-- attendance.py: Saves data in the attendance sheet.
-- recognizer.py: Main program to verify the identity of incoming employees.
+- `train.py`: Trains the model using the user images dataset.
+- `split_video.py`: Slices the video received from the Telegram bot to register employees in the database.
+- `test_recognizer.py`: Tests the model's prediction accuracy.
+- `telebot_faceID.py`: Handles the Telegram bot for new employee registration.
+- `attendance.py`: Saves data in the attendance sheet.
+- `recognizer.py`: Main program to verify the identity of incoming employees.
